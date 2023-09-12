@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using teste_de_api.Data.Map;
 using teste_de_api.Models;
 
 namespace teste_de_api.Data
@@ -15,6 +16,9 @@ namespace teste_de_api.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.ApplyConfiguration(new UserMap());
+            modelBuilder.ApplyConfiguration(new TaskMap());
+
             base.OnModelCreating(modelBuilder);
         }
     }

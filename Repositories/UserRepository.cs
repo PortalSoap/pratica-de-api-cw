@@ -1,7 +1,7 @@
+using Microsoft.EntityFrameworkCore;
 using teste_de_api.Data;
 using teste_de_api.Models;
 using teste_de_api.Repositories.Interfaces;
-using Microsoft.EntityFrameworkCore;
 
 namespace teste_de_api.Repositories
 {

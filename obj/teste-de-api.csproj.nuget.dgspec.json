@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\LUCASMORENOLACERDA\\Desktop\\pratica-de-api-cw\\teste-de-api.csproj": {}
+    "C:\\temp\\ws-vs22\\teste-de-api-cw\\teste-de-api.csproj": {}
   },
   "projects": {
-    "c:\\Users\\LUCASMORENOLACERDA\\Desktop\\pratica-de-api-cw\\teste-de-api.csproj": {
+    "C:\\temp\\ws-vs22\\teste-de-api-cw\\teste-de-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\LUCASMORENOLACERDA\\Desktop\\pratica-de-api-cw\\teste-de-api.csproj",
+        "projectUniqueName": "C:\\temp\\ws-vs22\\teste-de-api-cw\\teste-de-api.csproj",
         "projectName": "teste-de-api",
-        "projectPath": "c:\\Users\\LUCASMORENOLACERDA\\Desktop\\pratica-de-api-cw\\teste-de-api.csproj",
-        "packagesPath": "C:\\Users\\LUCASMORENOLACERDA\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\LUCASMORENOLACERDA\\Desktop\\pratica-de-api-cw\\obj\\",
+        "projectPath": "C:\\temp\\ws-vs22\\teste-de-api-cw\\teste-de-api.csproj",
+        "packagesPath": "C:\\Users\\Lucas M. Lacerda\\.nuget\\packages\\",
+        "outputPath": "C:\\temp\\ws-vs22\\teste-de-api-cw\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\LUCASMORENOLACERDA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Lucas M. Lacerda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -82,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
